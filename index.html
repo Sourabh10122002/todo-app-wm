@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="search-box">
+            <input type="search" id="search-box" placeholder="Search To Do" />
+    </div>
+    <div class="filter-btn">
+        <button id="all-todo-btn">
+            <img src="./images/all.png" alt="" srcset="">All</button>
+        <button id="completed-todo-btn">
+            <img src="./images/done.png" alt="" srcset="">Done</button>
+        <button id="active-todo-btn">
+            <img src="./images/waiting.png" alt="" srcset="">Waiting</button>
+    </div>
+    <div id="list-parent">
+        <ul id="items-list"></ul>
+    </div>
+    <div class="create-task">
+        <form>
+            <input id="form-input" placeholder="Add To Do" value="" />
+            <button id="form-btn" type="submit">Create
+                Task
+            </button>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
